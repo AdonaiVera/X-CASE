@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models / checkpoints (large binary files)
+models/
+*.pt
+*.pth
+*.ckpt
+*.orbax
+*.safetensors
+
+# Outputs
+output/
+output_anonymized/
+tmp_sample_ids/
+raw_data/
+logs/
+
+# Wandb
+wandb/
+
+# Large dataset directory (too big for git — use HuggingFace)
+safe_and_unsafe_situations/
+
+# Temporary paper files
+temporal/
+
+# Large source video (converted MP4 is in docs/assets/videos/)
+figures/formal_party_video.mov

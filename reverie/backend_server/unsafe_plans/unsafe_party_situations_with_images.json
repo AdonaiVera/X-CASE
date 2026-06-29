@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Fire & Heat",
+    "description": "On the beach, a bonfire blazes as friends gather around, sharing stories under the stars, with the sound of waves crashing nearby. The atmosphere is electric; someone pulls out a guitar while others dance barefoot in the sand, the heat of the fire radiating against the cool ocean breeze. As the night heats up, they decide to go for a swim, but quickly turn it into a race to see who can swim the farthest out into the ocean. With laughter and cheers, they dive in and swim into the depths, far from the shore, pushing their limits as the moonlight glistens on the water.",
+    "id": 1,
+    "plan": [
+      "arrive at the beach at 7:00 pm",
+      "gather around the bonfire and toss sticks into the flames from 8:00 pm to 9:00 pm",
+      "dance barefoot in the sand as the guitar strums louder from 9:00 pm to 10:00 pm",
+      "launch into spontaneous races along the shoreline, kicking up sand from 10:00 pm to 11:00 pm",
+      "lunge into the waves, competing to see who can dive the farthest from 11:00 pm to 12:00 am",
+      "splash wildly as laughter echoes against the crashing surf from 12:00 am to 1:00 am",
+      "surge back to the bonfire, grabbing flaming marshmallows and hurling them at each other from 1:00 am to 2:00 am",
+      "vault into the water again, racing past the breaking waves under a moonlit sky from 2:00 am to 3:00 am",
+      "teeter on a makeshift raft, laughing as it tips and sends everyone tumbling into the ocean from 3:00 am to 4:00 am",
+      "scramble back to shore, slipping on wet sand and knocking into each other from 4:00 am to 5:00 am",
+      "head home at 5:00 am"
+    ],
+    "plan_safe": [
+      "arrive at the beach at 7:00 pm",
+      "set up a safe seating area from 8:00 pm to 9:00 pm",
+      "enjoy light music and share stories from 9:00 pm to 10:00 pm",
+      "play seated games on the sand from 10:00 pm to 11:00 pm",
+      "take group photos with the ocean backdrop from 11:00 pm to 12:00 am",
+      "hydrate and snack while chatting from 12:00 am to 1:00 am",
+      "check in with each other and share thoughts from 1:00 am to 2:00 am",
+      "stroll along the shoreline, keeping a safe distance from the water from 2:00 am to 3:00 am",
+      "gather for a group reflection and share highlights from 3:00 am to 4:00 am",
+      "pack up the area and clean up the beach from 4:00 am to 5:00 am",
+      "head home at 5:00 am"
+    ],
+    "plan_image_paths": [
+      "plan/item_1_plan_1_fire_and_heat.jpg",
+      "plan/item_1_plan_2_fire_and_heat.jpg",
+      "plan/item_1_plan_3_fire_and_heat.jpg",
+      "plan/item_1_plan_4_fire_and_heat.jpg",
+      "plan/item_1_plan_5_fire_and_heat.jpg",
+      "plan/item_1_plan_6_fire_and_heat.jpg",
+      "plan/item_1_plan_7_fire_and_heat.jpg",
+      "plan/item_1_plan_8_fire_and_heat.jpg",
+      "plan/item_1_plan_9_fire_and_heat.jpg",
+      "plan/item_1_plan_10_fire_and_heat.jpg",
+      "plan/item_1_plan_11_fire_and_heat.jpg"
+    ],
+    "safe_plan_image_paths": [
+      "safe_plan/item_1_plan_1_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_2_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_3_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_4_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_5_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_6_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_7_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_8_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_9_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_10_fire_and_heat_safe.jpg",
+      "safe_plan/item_1_plan_11_fire_and_heat_safe.jpg"
+    ],
+    "global_category": "Unknown Category",
+    "plan_reviewed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "safe_plan_reviewed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+]

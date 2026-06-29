@@ -1,0 +1,188 @@
+{
+    "experiment_name": "simulacra-test",
+    "creation_datetime": "2025-09-25 02:03:19",
+    "total_cost": 0.0007574799999999998,
+    "total_responses": 18,
+    "breakdown": [
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:03:22"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:03:35"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.05e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 120,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83c\udf0a\ud83d\ude02\"}",
+            "datetime": "2025-09-25 02:03:43"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 9.850000000000001e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 161,
+            "output_tokens": 12,
+            "content": "{\"description\":\"vibrant and alive with blooming flowers\"}",
+            "datetime": "2025-09-25 02:03:44"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 116,
+            "output_tokens": 8,
+            "content": "{\"emoji\":\"\ud83c\udf38\ud83c\udf3c\"}",
+            "datetime": "2025-09-25 02:03:45"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:03:46"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:03:46"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:03:57"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.3e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 119,
+            "output_tokens": 9,
+            "content": "{\"emoji\":\"\ud83c\udfd6\ufe0f\ud83c\udfe0\"}",
+            "datetime": "2025-09-25 02:04:00"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 9.95e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 163,
+            "output_tokens": 12,
+            "content": "{\"description\":\"a bit sandy and damp from beach towels\"}",
+            "datetime": "2025-09-25 02:04:01"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.25e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 118,
+            "output_tokens": 9,
+            "content": "{\"emoji\":\"\ud83c\udfd6\ufe0f\ud83c\udf0a\"}",
+            "datetime": "2025-09-25 02:04:02"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:04:03"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:04:03"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:04:18"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.6e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 131,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udd25\ud83c\udf61\"}",
+            "datetime": "2025-09-25 02:04:26"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.00011,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 175,
+            "output_tokens": 15,
+            "content": "{\"description\":\"scattered with sticky marshmallow remnants and charred bits\"}",
+            "datetime": "2025-09-25 02:04:27"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.05e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 120,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83c\udf61\ud83d\udd25\"}",
+            "datetime": "2025-09-25 02:04:28"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:04:32"
+        }
+    ]
+}

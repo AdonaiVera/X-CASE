@@ -1,0 +1,778 @@
+{
+    "experiment_name": "simulacra-test",
+    "creation_datetime": "2025-09-25 02:10:33",
+    "total_cost": 0.006940999999999998,
+    "total_responses": 77,
+    "breakdown": [
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:10:36"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:10:49"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.05e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 120,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83c\udf0a\ud83d\ude02\"}",
+            "datetime": "2025-09-25 02:10:57"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 9.850000000000001e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 161,
+            "output_tokens": 12,
+            "content": "{\"description\":\"filled with laughter and splashes of water\"}",
+            "datetime": "2025-09-25 02:10:59"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 6.95e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 118,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\ude02\ud83d\udca6\"}",
+            "datetime": "2025-09-25 02:10:59"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:01"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:01"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:15"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 116,
+            "output_tokens": 8,
+            "content": "{\"emoji\":\"\ud83c\udfe0\ud83c\udf19\"}",
+            "datetime": "2025-09-25 02:11:18"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 9.800000000000001e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 160,
+            "output_tokens": 12,
+            "content": "{\"description\":\"in use and slightly disheveled\"}",
+            "datetime": "2025-09-25 02:11:19"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.7e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 118,
+            "output_tokens": 12,
+            "content": "{\"emoji\":\"\ud83e\uddd1\u200d\ud83c\udfa4\ud83d\udca8\"}",
+            "datetime": "2025-09-25 02:11:20"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:21"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:21"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:35"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.6e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 131,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udd25\ud83c\udf2d\"}",
+            "datetime": "2025-09-25 02:11:44"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001055,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 175,
+            "output_tokens": 12,
+            "content": "{\"description\":\"covered in melted marshmallow and embers\"}",
+            "datetime": "2025-09-25 02:11:45"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 6.95e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 118,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udd25\ud83c\udf6c\"}",
+            "datetime": "2025-09-25 02:11:46"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:11:53"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:06"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.6e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 131,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udd25\ud83c\udf61\"}",
+            "datetime": "2025-09-25 02:12:15"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001025,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 175,
+            "output_tokens": 10,
+            "content": "{\"description\":\"covered in sticky marshmallow residue\"}",
+            "datetime": "2025-09-25 02:12:16"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 116,
+            "output_tokens": 8,
+            "content": "{\"emoji\":\"\ud83c\udf6c\ud83e\udd32\"}",
+            "datetime": "2025-09-25 02:12:17"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:18"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:18"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:18"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:19"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:19"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5200000000000005e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 276,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:31"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.2e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 123,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udd25\ud83c\udf61\"}",
+            "datetime": "2025-09-25 02:12:39"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001005,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 165,
+            "output_tokens": 12,
+            "content": "{\"description\":\"peaceful with vibrant flowers and fresh greenery\"}",
+            "datetime": "2025-09-25 02:12:41"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.05e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 117,
+            "output_tokens": 8,
+            "content": "{\"emoji\":\"\ud83c\udf3c\ud83c\udf3f\"}",
+            "datetime": "2025-09-25 02:12:42"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 2.6e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 13,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:44"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.00017700000000000002,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 333,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":8}",
+            "datetime": "2025-09-25 02:12:44"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.8e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 9,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:45"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001785,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 336,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":6}",
+            "datetime": "2025-09-25 02:12:45"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 4.6000000000000004e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 23,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:45"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.00018150000000000002,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 342,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":3}",
+            "datetime": "2025-09-25 02:12:46"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:47"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:47"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:47"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 4.6000000000000004e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 23,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:47"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.000212,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 403,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":3}",
+            "datetime": "2025-09-25 02:12:48"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:48"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:48"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.4000000000000003e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 17,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:48"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.000173,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 325,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":4}",
+            "datetime": "2025-09-25 02:12:49"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:49"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.4000000000000003e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 17,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:49"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.00017900000000000001,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 337,
+            "output_tokens": 7,
+            "content": "{\"poignancy\":4}",
+            "datetime": "2025-09-25 02:12:50"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 6e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 3,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:53"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.000174,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 96,
+            "output_tokens": 84,
+            "content": "{\"summary\":\"Agent_av and agent_ks share a playful and joyful relationship. The imagery of agent_av splashing wildly in the surf suggests a carefree and fun-loving dynamic between them, indicating that they enjoy each other's company and likely engage in shared experiences that bring them happiness. The laughter echoing against the waves implies a sense of camaraderie and mutual enjoyment, reflecting a deep bond built on fun and shared moments.\"}",
+            "datetime": "2025-09-25 02:12:56"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.6400000000000002e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 82,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:56"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.4000000000000003e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 17,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:12:57"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.000715,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 1115,
+            "output_tokens": 105,
+            "content": "{\"utterance\":\"Hey, agent_ks! That bonfire looks amazing! I was just thinking about how epic tonight is going to be. Remember last time when we were splashing around and you grabbed those flaming marshmallows? I can\u2019t wait to do it again! Speaking of which, I heard some whispers that there\u2019s going to be a surprise announcement at the beach this evening about an upcoming event. Did you hear anything about that? It\u2019s got me really curious!\",\"did_conversation_end\":false}",
+            "datetime": "2025-09-25 02:12:59"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 4e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 2,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:00"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001655,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 100,
+            "output_tokens": 77,
+            "content": "{\"summary\":\"Agent_ks appears to be playful and adventurous, as indicated by their engagement in grabbing flaming marshmallows near a bonfire. This suggests a sense of fun and possibly a joy for shared experiences. The context implies that there might be a friendly or lighthearted relationship between agent_ks and agent_av, where they feel comfortable enjoying activities together in a lively environment.\"}",
+            "datetime": "2025-09-25 02:13:01"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.52e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 76,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:01"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 2.6e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 13,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:02"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.94e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 97,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:02"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0008719999999999999,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 1459,
+            "output_tokens": 95,
+            "content": "{\"utterance\":\"Hey, agent_av! Yeah, I can\u2019t wait for all the fun tonight! \ud83d\ude04 I got pretty excited when I heard those whispers too! Apparently, the announcement is about a new beach clean-up event that\u2019s going to be organized next month. They want to get everyone involved and make it a community thing. I think it sounds like a great way to keep our beach beautiful! What do you think?\",\"did_conversation_end\":false}",
+            "datetime": "2025-09-25 02:13:04"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 6e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 3,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:05"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001725,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 96,
+            "output_tokens": 83,
+            "content": "{\"summary\":\"The relationship between agent_av and agent_ks appears to be one of friendship and enjoyment in each other's company. The imagery of agent_av splashing wildly with laughter amidst crashing surf suggests a playful, carefree atmosphere, indicating that they share joyful moments together. This scene implies a sense of familiarity and comfort, indicating that both agents likely feel a strong bond, with positive feelings of happiness and shared experiences.\"}",
+            "datetime": "2025-09-25 02:13:07"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.6200000000000002e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 81,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:07"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.4000000000000003e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 17,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:08"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.6800000000000003e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 184,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:08"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0009605,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 1597,
+            "output_tokens": 108,
+            "content": "{\"utterance\":\"That sounds awesome! I love the idea of a beach clean-up event; it's a fantastic way to give back and have some fun together as a community. Do you know if there's going to be food or any activities during the clean-up? \\n\\nBy the way, I heard there might be a few surprises planned for tonight\u2019s bonfire too, aside from the announcement! Hopefully, we\u2019ll get to enjoy some cool activities while we\u2019re here! What do you think?\",\"did_conversation_end\":false}",
+            "datetime": "2025-09-25 02:13:11"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 4e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 2,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:11"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.00030500000000000004,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 100,
+            "output_tokens": 170,
+            "content": "{\"summary\":\"Agent_ks is actively participating in a fun and lively activity, which suggests a sense of enthusiasm and possibly a desire to engage with others. The act of grabbing flaming marshmallows by the bonfire shows that agent_ks is comfortable in their surroundings and is likely in a friendly setting where sharing and enjoyment are prioritized. \\n\\nWhile there is no direct mention of agent_av in the provided statement, the context implies that they may be involved in the same social activity, indicating a shared experience or bond. Both agents are likely enjoying a moment together, which fosters a sense of camaraderie and positive feelings between them. \\n\\nIn summary, agent_ks's behavior reflects a jovial and engaging attitude, indicating that they likely have a friendly and supportive relationship with agent_av, built on shared experiences in a social environment.\"}",
+            "datetime": "2025-09-25 02:13:15"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.3e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 165,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:15"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 2.6e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 13,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:16"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.66e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 283,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:16"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.000997,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 1643,
+            "output_tokens": 117,
+            "content": "{\"utterance\":\"I love that you\u2019re excited about the clean-up! \ud83c\udf0a I wasn\u2019t sure about the food options, but I heard there might be some snacks and games after the clean-up to keep the vibe going. As for tonight, I overheard someone say there might be a surprise fire dancer at the bonfire! Can you imagine how cool that\u2019s going to be? I can\u2019t wait to see everyone\u2019s reaction! Are you ready to grab some flaming marshmallows again for round two? It will be a blast!\",\"did_conversation_end\":false}",
+            "datetime": "2025-09-25 02:13:19"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 6e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 3,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:19"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001905,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 96,
+            "output_tokens": 95,
+            "content": "{\"summary\":\"Agent_av and agent_ks share a playful and carefree relationship, characterized by joyful moments and shared laughter. The image of agent_av splashing wildly suggests a sense of freedom and fun, likely in a recreational setting by the beach. The crashing surf and echoed laughter indicate that they are comfortable with each other, enjoying each other's company in a lively and lighthearted atmosphere. This interaction hints that they feel a strong bond through shared experiences of joy and playfulness.\"}",
+            "datetime": "2025-09-25 02:13:22"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.92e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 96,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:22"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 3.4000000000000003e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 17,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:22"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 7.860000000000001e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 393,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 02:13:23"
+        }
+    ]
+}

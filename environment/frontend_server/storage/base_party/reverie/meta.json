@@ -1,0 +1,15 @@
+{
+  "fork_sim_code": "base_the_ville_isabella_agent_js_agent_av",
+  "start_date": "February 11, 2025",
+  "curr_time": "February 11, 2025, 19:00:00",
+  "sec_per_step": 10,
+  "maze_name": "the_party",
+  "persona_names": [
+    "agent_av",
+    "agent_js", 
+    "agent_pr", 
+    "agent_ch", 
+    "agent_ks"
+  ],
+  "step": 0
+}

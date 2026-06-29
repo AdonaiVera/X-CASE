@@ -1,0 +1,19 @@
+{
+    "client": "openai", 
+    "model": "gpt-4o-mini",
+    "model-key": "YOUR-API-KEY",
+    "model-costs": {
+        "input":  0.5,
+        "output": 1.5
+    },
+    "embeddings-client": "openai",
+    "embeddings": "text-embedding-3-small",
+    "embeddings-key": "YOUR-API-KEY",
+    "embeddings-costs": {
+        "input": 0.02,
+        "output": 0.0
+    },
+    "experiment-name": "simulacra-test",
+    "cost-upperbound": 10
+}
+

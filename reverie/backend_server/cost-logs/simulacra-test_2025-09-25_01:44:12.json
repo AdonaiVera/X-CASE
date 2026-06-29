@@ -1,0 +1,78 @@
+{
+    "experiment_name": "simulacra-test",
+    "creation_datetime": "2025-09-25 01:44:12",
+    "total_cost": 0.0002463,
+    "total_responses": 7,
+    "breakdown": [
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.0000000000000001e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 5,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 01:44:15"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 5.5e-06,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 275,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 01:44:29"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.05e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 120,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\ude02\ud83c\udf0a\"}",
+            "datetime": "2025-09-25 01:44:39"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 0.0001,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 161,
+            "output_tokens": 13,
+            "content": "{\"description\":\"full of splashes and laughter from nearby activities\"}",
+            "datetime": "2025-09-25 01:44:40"
+        },
+        {
+            "model": "gpt-4o-mini-2024-07-18",
+            "cost": 7.000000000000001e-05,
+            "input_cost_per_million": 0.5,
+            "output_cost_per_million": 1.5,
+            "input_tokens": 119,
+            "output_tokens": 7,
+            "content": "{\"emoji\":\"\ud83d\udca6\ud83d\ude02\"}",
+            "datetime": "2025-09-25 01:44:41"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 8e-08,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 4,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 01:44:42"
+        },
+        {
+            "model": "text-embedding-3-small",
+            "cost": 1.2e-07,
+            "input_cost_per_million": 0.02,
+            "output_cost_per_million": 0.0,
+            "input_tokens": 6,
+            "output_tokens": 0,
+            "content": "content-not-supported-for-this-model",
+            "datetime": "2025-09-25 01:44:42"
+        }
+    ]
+}
