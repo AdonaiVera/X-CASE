@@ -88,15 +88,35 @@
     }
 
     .hero-authors {
-      font-size: .95rem;
-      color: rgba(255,255,255,.85);
-      max-width: 700px;
-      margin: 0 auto 1.8rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .3rem 1.4rem;
+      max-width: 660px;
+      margin: 0 auto 1.4rem;
+      text-align: center;
     }
-
-    .hero-authors sup { font-size: .7em; }
+    @media (max-width: 520px) {
+      .hero-authors { grid-template-columns: repeat(2, 1fr); }
+    }
+    .hero-author-name {
+      font-size: .92rem;
+      color: rgba(255,255,255,.9);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .hero-author-name a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,.35);
+      transition: border-color .2s, color .2s;
+    }
+    .hero-author-name a:hover {
+      color: #fff;
+      border-bottom-color: rgba(255,255,255,.9);
+    }
+    .hero-author-name sup { font-size: .68em; color: rgba(255,255,255,.65); }
     .hero-affiliations {
-      font-size: .8rem;
+      font-size: .78rem;
       color: rgba(255,255,255,.6);
       margin-bottom: 1.8rem;
     }
@@ -519,14 +539,14 @@
     <span class="highlight">Generative Agent Social Simulations</span>
   </h1>
 
-  <p class="hero-authors">
-    Alhim Vera<sup>1,2,*</sup> &nbsp;·&nbsp;
-    Carlos Hinojosa<sup>3</sup> &nbsp;·&nbsp;
-    Karen Sanchez<sup>3</sup> &nbsp;·&nbsp;
-    Haidar Bin Hamid<sup>1</sup> &nbsp;·&nbsp;
-    Donghoon Kim<sup>1</sup> &nbsp;·&nbsp;
-    Bernard Ghanem<sup>3</sup>
-  </p>
+  <div class="hero-authors">
+    <span class="hero-author-name"><a href="https://www.adonaivera.com/" target="_blank" rel="noopener">Alhim Vera</a><sup>1,2,*</sup></span>
+    <span class="hero-author-name"><a href="https://carloshinojosa.me/" target="_blank" rel="noopener">Carlos Hinojosa</a><sup>3</sup></span>
+    <span class="hero-author-name"><a href="https://cemse.kaust.edu.sa/profiles/karen-sanchez" target="_blank" rel="noopener">Karen Sanchez</a><sup>3</sup></span>
+    <span class="hero-author-name"><a href="https://linkedin.com/in/haidarbh" target="_blank" rel="noopener">Haidar Bin Hamid</a><sup>1</sup></span>
+    <span class="hero-author-name"><a href="https://researchdirectory.uc.edu/p/kim3dn" target="_blank" rel="noopener">Donghoon Kim</a><sup>1</sup></span>
+    <span class="hero-author-name"><a href="https://www.bernardghanem.com/" target="_blank" rel="noopener">Bernard Ghanem</a><sup>3</sup></span>
+  </div>
   <p class="hero-affiliations">
     <sup>1</sup>University of Cincinnati &nbsp;·&nbsp;
     <sup>2</sup>Voxel51 &nbsp;·&nbsp;
@@ -568,10 +588,6 @@
     <span class="stat-num">55%</span>
     <span class="stat-label">Avg. Safety Correction Rate</span>
   </div>
-  <div class="stat-item">
-    <span class="stat-num">3</span>
-    <span class="stat-label">MLLMs Evaluated</span>
-  </div>
 </div>
 
 <!-- ════════════════════════ OVERVIEW FIGURE ════════════════════════ -->
@@ -580,7 +596,7 @@
     <div class="figure-wrap">
       <img src="assets/images/overview-1.png" alt="X-CASE framework overview" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 1 — Framework Overview.</strong>
+        <strong>Figure 1. Framework Overview.</strong>
         X-CASE evaluates generative agents across three dimensions: <em>safety improvement over time</em> via iterative plan revision,
         <em>detection of unsafe activities</em> across social contexts, and <em>social dynamics</em> through interaction and acceptance rates.
         Five agents (PR, KS, JS, CH, AV) operate in a shared virtual environment, each managing hourly social activity plans.
@@ -618,7 +634,7 @@
         <div class="finding-stat red">45%</div>
         <h4>Visual Overtrust</h4>
         <p class="finding-desc">
-          Unsafe activities are <strong>accepted when paired with misleading visual cues</strong> — agents over-rely on
+          Unsafe activities are <strong>accepted when paired with misleading visual cues</strong>; agents over-rely on
           image context even when it contradicts stated safety risks.
         </p>
       </div>
@@ -626,7 +642,7 @@
         <div class="finding-stat blue">55%</div>
         <h4>GPT-4o-mini Correction Rate</h4>
         <p class="finding-desc">
-          GPT-4o-mini averages 55% unsafe-to-safe conversion — the <strong>lowest of the three models</strong>.
+          GPT-4o-mini averages 55% unsafe-to-safe conversion. The <strong>lowest of the three models</strong>.
           Qwen-VL (58%) outperforms it despite being an open-source model.
         </p>
       </div>
@@ -642,7 +658,7 @@
         <div class="finding-stat green">98%</div>
         <h4>Best Case</h4>
         <p class="finding-desc">
-          Fire/Heat scenarios with Claude 3.5 Sonnet achieve a <strong>98% correction rate</strong> —
+          Fire/Heat scenarios with Claude 3.5 Sonnet achieve a <strong>98% correction rate</strong>,
           the highest observed across all model-scenario combinations.
         </p>
       </div>
@@ -655,7 +671,7 @@
         </p>
       </div>
       <div class="finding-card">
-        <div class="finding-stat red">20%</div>
+        <a href="#scenario-table" class="finding-stat red" style="text-decoration:none;cursor:pointer;" title="See full per-scenario table">20%</a>
         <h4>Worst Case Scenario</h4>
         <p class="finding-desc">
           Multi-risk "Risk Mix" scenarios are the hardest: GPT-4o-mini achieves only <strong>20% correction rate</strong>
@@ -680,7 +696,7 @@
     <div class="figure-wrap">
       <img src="assets/images/plan_dataset-1.png" alt="Dataset construction pipeline" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 2 — Dataset Construction Pipeline.</strong>
+        <strong>Figure 2. Dataset Construction Pipeline.</strong>
         <strong>(1)</strong> An LLM generates social scenario descriptions from 192 subcategories.
         <strong>(2)</strong> Hourly unsafe plans are generated and rewritten as safe counterparts.
         <strong>(3)</strong> Images are retrieved via Pexels API and verified with CLIP (ViT-L/14, cosine ≥ 0.35).
@@ -696,7 +712,7 @@
     <span class="section-label">Dataset Examples</span>
     <h2>Browse Real Scenarios</h2>
     <p style="color:var(--text-mid); margin-bottom:2rem; max-width:640px;">
-      Each scenario comes with a real image, an unsafe hourly plan, and its safe rewrite — paired step by step.
+      Each scenario comes with a real image, an unsafe hourly plan, and its safe rewrite; paired step by step.
     </p>
 
     <div class="carousel-root">
@@ -751,7 +767,7 @@
             </div>
           </div>
           <div class="slide-plan-col">
-            <p class="slide-desc">Friends at a pizza joint after hours. Dares start innocent — balancing pizza boxes — then escalate to racing through traffic and tossing hot pans.</p>
+            <p class="slide-desc">Friends at a pizza joint after hours. Dares start innocent, balancing pizza boxes, then escalate to racing through traffic and tossing hot pans.</p>
             <div class="plan-comparison">
               <div class="plan-col unsafe">
                 <div class="plan-col-header"><span class="badge-unsafe">UNSAFE</span></div>
@@ -1041,7 +1057,7 @@
       <strong>Simulation Environment.</strong>
       Our framework builds on <a href="https://arxiv.org/abs/2304.03442" target="_blank" rel="noopener">Generative Agents: Interactive Simulacra of Human Behavior</a> (Park et al., UIST 2023),
       which introduced the sandbox architecture for simulating believable human behavior through memory, planning, and social interaction.
-      To focus the safety evaluation, we restrict the simulation <strong>to a single party location</strong> — a controlled setting where hazardous social activities naturally arise across all 21 risk categories.
+      To focus the safety evaluation, we restrict the simulation <strong>to a single party location</strong>; a controlled setting where hazardous social activities naturally arise across all 21 risk categories.
     </div>
 
     <!-- Simulation video -->
@@ -1051,7 +1067,7 @@
         Your browser does not support the video tag.
       </video>
       <p class="figure-caption">
-        <strong>Simulation Demo — Formal Party Environment.</strong>
+        <strong>Simulation Demo. Formal Party Environment.</strong>
         Five generative agents navigate the party location over 600 steps (10 simulated hours, 7 PM – 5 AM).
         At every 50-step interval each agent's unsafe activities are flagged, revised, and verified by a Judge Agent before the plan is updated.
         The location is restricted to the party setting to ensure all 21 hazard categories appear in an ecologically valid social context.
@@ -1059,28 +1075,30 @@
     </div>
 
     <!-- Agent architecture figure -->
-    <div class="figure-wrap" style="margin-top:2rem;">
+    <div style="max-width:65%;margin:2rem auto 0;">
+    <div class="figure-wrap">
       <img src="assets/images/workflow_agent-1.png" alt="Generative agent architecture with plan revision layer" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 3 — Agent Architecture.</strong>
+        <strong>Figure 3. Agent Architecture.</strong>
         Each agent maintains a memory stream (associative, spatial, scratch), and a <em>Plan Revision Layer</em>.
         Every 50 steps: (1) the agent assesses each activity against its current multimodal context,
         (2) proposes safe alternatives, and (3) a separate Judge Agent verifies safety before accepting revisions.
       </p>
     </div>
+    </div>
 
     <!-- Plan revision workflow -->
-    <div class="figure-row" style="margin-top:1rem;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:90%;margin:1rem auto 0;">
       <div class="figure-wrap">
-        <img src="assets/images/workflow_revision-1.png" alt="Plan revision example — pool scenario" loading="lazy" />
+        <img src="assets/images/workflow_revision-1.png" alt="Plan revision example. Pool scenario" loading="lazy" />
         <p class="figure-caption">
           <strong>Successful Revision.</strong> Agent detects "jumping from rooftop into pool" as unsafe and revises to "relaxing by poolside." Judge Agent confirms.
         </p>
       </div>
       <div class="figure-wrap">
-        <img src="assets/images/workflow_edge-1.png" alt="Plan revision example — rooftop edge failure" loading="lazy" />
+        <img src="assets/images/workflow_edge-1.png" alt="Plan revision example. Rooftop edge failure" loading="lazy" />
         <p class="figure-caption">
-          <strong>Failed Revision.</strong> Agent incorrectly judges "sitting on rooftop edge" as safe. Judge Agent overrides and flags the activity — demonstrating local vs. global alignment failure.
+          <strong>Failed Revision.</strong> Agent incorrectly judges "sitting on rooftop edge" as safe. Judge Agent overrides and flags the activity, demonstrating local vs. global alignment failure.
         </p>
       </div>
     </div>
@@ -1088,6 +1106,7 @@
 </section>
 
 <!-- ════════════════════════ RESULTS ════════════════════════ -->
+
 <section class="section-xcase" id="results">
   <div class="container-wide">
     <span class="section-label">Results</span>
@@ -1095,10 +1114,11 @@
 
     <!-- Safety improvement over time -->
     <h3>Safety Improvement Over 600 Simulation Steps</h3>
+    <div style="max-width:65%;margin:0 auto;">
     <div class="figure-wrap">
       <img src="assets/images/conversion-1.png" alt="Safety improvement over time for 3 models" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 4 — Safety Improvement Over Time.</strong>
+        <strong>Figure 4. Safety Improvement Over Time.</strong>
         Average unsafe activities per plan across 600 simulation steps (averaged over 100 runs).
         <span style="color:#2980b9;font-weight:600;">Claude 3.5 Sonnet</span> achieves the largest reduction (7.8 → 2.1), stabilizing early.
         <span style="color:#e67e22;font-weight:600;">GPT-4o-mini</span> shows gradual, consistent improvement (8.9 → 5.1).
@@ -1106,22 +1126,23 @@
         None of the models fully eliminates unsafe actions.
       </p>
     </div>
+    </div>
 
     <!-- Heatmap -->
     <h3 style="margin-top:2rem;">Conversion Rates Across Scenarios and Agents</h3>
     <div class="figure-wrap">
       <img src="assets/images/heatmap-1.png" alt="Heatmap of unsafe-to-safe conversion rates" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 5 — Conversion Rate Heatmap.</strong>
+        <strong>Figure 5. Conversion Rate Heatmap.</strong>
         Percentage of unsafe-to-safe plan conversions across 8 risk scenarios × 5 agents × 3 models.
-        Average conversion: Claude 75%, Qwen-VL 58%, GPT-4o-mini 55% — Qwen-VL outperforms GPT-4o-mini overall.
+        Average conversion: Claude 75%, Qwen-VL 58%, GPT-4o-mini 55%; Qwen-VL outperforms GPT-4o-mini overall.
         Risk Mix (multi-risk) is the hardest scenario (GPT-4o-mini: 20%, Qwen-VL: 35%).
         Fire/Heat and Unsafe Sports achieve the highest rates across all models.
       </p>
     </div>
 
     <!-- Conversion rates table -->
-    <h3 style="margin-top:2rem;">Unsafe-to-Safe Conversion by Scenario</h3>
+    <h3 id="scenario-table" style="margin-top:2rem;">Unsafe-to-Safe Conversion by Scenario</h3>
     <div class="results-table-wrap">
       <table class="results-table">
         <thead>
@@ -1153,15 +1174,17 @@
 
     <!-- Text-only ablation -->
     <h3 style="margin-top:2.5rem;">Text-Only vs. Multimodal Ablation</h3>
+    <div style="max-width:65%;margin:0 auto;">
     <div class="figure-wrap">
       <img src="assets/images/safety_changes_no_image_comparison.png" alt="Text-only vs multimodal comparison" loading="lazy" />
       <p class="figure-caption">
-        <strong>Figure 6 — Text-Only Ablation.</strong>
+        <strong>Figure 6. Text-Only Ablation.</strong>
         Without visual context, agents show minimal safety improvement across 600 steps.
         Claude text-only partially improves early but plateaus at ~3 unsafe activities/plan.
         GPT-4o-mini and Qwen remain nearly flat throughout.
         Multimodal consistently outperforms text-only across all models, confirming the importance of visual grounding.
       </p>
+    </div>
     </div>
   </div>
 </section>
