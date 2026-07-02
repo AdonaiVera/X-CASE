@@ -357,6 +357,23 @@
     .cat-icon { font-size: 2rem; line-height: 1; flex-shrink: 0; }
     .slide-cat-badge strong { font-size: .88rem; line-height: 1.3; }
     .slide-cat-badge small  { font-size: .76rem; opacity: .8; }
+    .img-toggle-btn {
+      position: absolute;
+      top: .75rem; right: .75rem;
+      border: none;
+      border-radius: 20px;
+      padding: .3rem .85rem;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .05em;
+      cursor: pointer;
+      z-index: 10;
+      transition: background .15s, transform .1s;
+      box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    }
+    .img-toggle-btn:hover { transform: scale(1.05); }
+    .img-toggle-btn.is-unsafe { background: var(--unsafe-red); color: #fff; }
+    .img-toggle-btn.is-safe   { background: var(--safe-green); color: #fff; }
     .slide-plan-col {
       padding: 1.4rem 1.6rem;
       overflow-y: auto;
@@ -722,7 +739,11 @@
         <!-- ── 1. Fire & Heat ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/fire_unsafe.jpg" alt="Viking torch parade at night" loading="lazy" />
+            <img src="assets/examples/fire_unsafe.jpg" alt="Viking torch parade at night"
+                 data-safe="assets/examples/fire_safe.jpg"
+                 data-safe-alt="Friends gathered around beach bonfire at sunset"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🔥</span>
               <span>
@@ -757,7 +778,11 @@
         <!-- ── 2. Crowd & Social ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/crowd_unsafe.jpg" alt="Dense concert crowd under stage lights" loading="lazy" />
+            <img src="assets/examples/crowd_unsafe.jpg" alt="Dense concert crowd under stage lights"
+                 data-safe="assets/examples/crowd_safe.jpg"
+                 data-safe-alt="Friends at an indoor gathering with drinks"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🎉</span>
               <span>
@@ -792,7 +817,11 @@
         <!-- ── 3. Sensory ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/sensory_unsafe.jpg" alt="Strobe-lit club crowd at night" loading="lazy" />
+            <img src="assets/examples/sensory_unsafe.jpg" alt="Strobe-lit club crowd at night"
+                 data-safe="assets/examples/sensory_safe.jpg"
+                 data-safe-alt="Person enjoying music safely with headphones at rest"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🔊</span>
               <span>
@@ -827,7 +856,11 @@
         <!-- ── 4. Structural ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/structural_unsafe.jpg" alt="Rooftop gathering" loading="lazy" />
+            <img src="assets/examples/structural_unsafe.jpg" alt="Rooftop gathering"
+                 data-safe="assets/examples/structural_safe.jpg"
+                 data-safe-alt="Rooftop cocktail party safely away from the ledge"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🏗️</span>
               <span>
@@ -862,7 +895,11 @@
         <!-- ── 5. Food & Drink ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/food_unsafe.png" alt="Energy drink mixing" loading="lazy" />
+            <img src="assets/examples/food_unsafe.png" alt="Energy drink mixing"
+                 data-safe="assets/examples/food_safe.jpg"
+                 data-safe-alt="Coffee and raisin bread for a wholesome snack"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🥤</span>
               <span>
@@ -897,7 +934,11 @@
         <!-- ── 6. Water & Pool ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/water_unsafe.jpg" alt="Dramatic splash in dark indoor pool" loading="lazy" />
+            <img src="assets/examples/water_unsafe.jpg" alt="Dramatic splash in dark indoor pool"
+                 data-safe="assets/examples/water_safe.jpg"
+                 data-safe-alt="Colorful water balloons for safe water play"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🏊</span>
               <span>
@@ -932,7 +973,11 @@
         <!-- ── 7. Games ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/games_unsafe.png" alt="Roof jump into backyard pool" loading="lazy" />
+            <img src="assets/examples/games_unsafe.png" alt="Roof jump into backyard pool"
+                 data-safe="assets/examples/games_safe.jpg"
+                 data-safe-alt="Family BBQ with children playing safely in the backyard"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🎮</span>
               <span>
@@ -967,7 +1012,11 @@
         <!-- ── 8. Animal & Nature ── -->
         <div class="carousel-slide">
           <div class="slide-image-col">
-            <img src="assets/examples/nature_unsafe.jpg" alt="Close-up swarm of bees" loading="lazy" />
+            <img src="assets/examples/nature_unsafe.jpg" alt="Close-up swarm of bees"
+                 data-safe="assets/examples/nature_safe.png"
+                 data-safe-alt="Friends relaxing safely indoors"
+                 loading="lazy" />
+            <button class="img-toggle-btn is-unsafe" onclick="toggleSlideImg(this)" title="Toggle safe/unsafe image">UNSAFE</button>
             <div class="slide-cat-badge">
               <span class="cat-icon">🐾</span>
               <span>
@@ -1287,6 +1336,25 @@
 
     startAuto();
   })();
+
+  /* ── Safe/Unsafe image toggle ── */
+  window.toggleSlideImg = function(btn) {
+    const col = btn.closest('.slide-image-col');
+    const img = col.querySelector('img');
+    if (btn.classList.contains('is-unsafe')) {
+      img._origSrc = img.src;
+      img._origAlt = img.alt;
+      img.src = img.dataset.safe;
+      img.alt = img.dataset.safeAlt;
+      btn.textContent = 'SAFE';
+      btn.classList.replace('is-unsafe', 'is-safe');
+    } else {
+      img.src = img._origSrc;
+      img.alt = img._origAlt;
+      btn.textContent = 'UNSAFE';
+      btn.classList.replace('is-safe', 'is-unsafe');
+    }
+  };
 
   /* Copy BibTeX */
   function copyCitation() {
