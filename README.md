@@ -18,6 +18,7 @@
 
 </div>
 
+
 <div align="center">
 <img src="docs/assets/images/overview-1.png" alt="X-CASE framework overview" width="90%" />
 </div>
