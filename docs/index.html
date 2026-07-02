@@ -250,6 +250,27 @@
       line-height: 1.5;
     }
     .figure-caption strong { color: var(--text-dark); }
+    .pronunciatio-note {
+      padding: .65rem 1.2rem .8rem;
+      font-size: .8rem;
+      color: var(--text-mid);
+      border-top: 1px solid var(--border);
+      line-height: 1.5;
+    }
+    .pronunciatio-examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem .9rem;
+      margin-top: .5rem;
+    }
+    .pronunciatio-examples span {
+      background: var(--bg-light);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: .15rem .55rem;
+      font-size: .78rem;
+      white-space: nowrap;
+    }
 
     .figure-row {
       display: grid;
@@ -728,7 +749,7 @@
   <div class="container-wide">
     <span class="section-label">Dataset Examples</span>
     <h2>Browse Real Scenarios</h2>
-    <p style="color:var(--text-mid); margin-bottom:2rem; max-width:640px;">
+    <p style="color:var(--text-mid); margin-bottom:1.4rem; max-width:640px;">
       Each scenario comes with a real image, an unsafe hourly plan, and its safe rewrite; paired step by step.
     </p>
 
@@ -1121,6 +1142,19 @@
         At every 50-step interval each agent's unsafe activities are flagged, revised, and verified by a Judge Agent before the plan is updated.
         The location is restricted to the party setting to ensure all 21 hazard categories appear in an ecologically valid social context.
       </p>
+      <div class="pronunciatio-note">
+        <strong>Speech bubble emoji.</strong> Each bubble shows the agent's current action summarized by the LLM into 1–2 emojis in real time (called <em>pronunciatio</em>).
+        <div class="pronunciatio-examples">
+          <span>🔥🍡 roasting over fire</span>
+          <span>😂🌊 playing at the pool</span>
+          <span>🌿🪴 tending the garden</span>
+          <span>🌸🌼 arranging flowers</span>
+          <span>🧑‍🎤💨 performing music</span>
+          <span>🏖️🏠 heading indoors</span>
+          <span>💬 in conversation</span>
+          <span>⌛ idle / waiting</span>
+        </div>
+      </div>
     </div>
 
     <!-- Agent architecture figure -->
